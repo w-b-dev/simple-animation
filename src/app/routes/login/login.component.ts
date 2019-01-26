@@ -9,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [
       `
+      @import url('https://fonts.googleapis.com/css?family=Lobster');
+
       :host {
+        font-family: 'Lobster', cursive;
+
         flex: 1 1 100%;
         display: flex;
         justify-content: center;

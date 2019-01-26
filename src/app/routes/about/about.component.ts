@@ -9,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [
       `
+      @import url('https://fonts.googleapis.com/css?family=Anton');
+
       :host {
+        font-family: 'Anton', sans-serif;
+
         flex: 1 1 100%;
         display: flex;
         justify-content: center;
