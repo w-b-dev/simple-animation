@@ -18,7 +18,9 @@ import { Component, OnInit } from '@angular/core';
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url("assets/home-cover.jpg");
+        /*background-image: url("assets/home-cover.jpg");*/
+        background-image: url("assets/home-cover-w720-res72-blur.jpg");
+        /*background-image: url("assets/home-cover.jpg");*/
         background-size: cover;
         background-repeat: no-repeat;
       }
